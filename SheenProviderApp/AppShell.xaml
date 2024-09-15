@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="SheenProviderApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SheenProviderApp"
+    xmlns:FlyoutPages="clr-namespace:SheenProviderApp.FlyoutPages"
+    xmlns:Orders="clr-namespace:SheenProviderApp.Orders"
+    xmlns:Reviews="clr-namespace:Sheen.Reviews"
+    xmlns:Login="clr-namespace:SheenProviderApp.LogInPages"
+    Shell.FlyoutBehavior="Flyout"
+    Title="SheenProviderApp"
+    x:Name="ShellPage"
+    Shell.FlyoutItemIsVisible="False"
+    >
+
+
+    <!--<Shell.Items>
+        <ShellContent
+     ContentTemplate="{DataTemplate Login:pgIntro}" ToolTipProperties.Text="New Orders"
+     Route="Home" />
+    </Shell.Items>-->
+    
+
+    <Shell.FlyoutHeader >
+        <VerticalStackLayout Padding="12" VerticalOptions="Center" Spacing="8">
+            <HorizontalStackLayout  Spacing="8" >
+                <Frame  HeightRequest="48" WidthRequest="48">
+                    <Image  Source="{Binding Photo}"  HeightRequest="48" WidthRequest="48"/>
+                </Frame>
+                <VerticalStackLayout>
+                    <Label Text="{Binding StoreName}" VerticalTextAlignment="Center"/>
+                    <HorizontalStackLayout>
+                        <Image Source="star.svg"></Image>
+                        <Label Text="{Binding Rating}" VerticalTextAlignment="Center"/>
+                    </HorizontalStackLayout>
+
+                </VerticalStackLayout>
+
+                <HorizontalStackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/> 
+                </HorizontalStackLayout.GestureRecognizers>
+                
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </Shell.FlyoutHeader>
+
+    
+    <FlyoutItem Title="Home" Icon="home.svg" >
+        <ShellContent
+     ContentTemplate="{DataTemplate local:MainPage}" ToolTipProperties.Text="New Orders"
+     Route="Home" />
+    </FlyoutItem>
+
+
+    <FlyoutItem  Title="Order" Icon="list_vector.png" ToolTipProperties.Text="Active Orders">
+        <ShellContent
+    ContentTemplate="{DataTemplate Orders:pgOrder}"
+    Route="Order" />
+    </FlyoutItem>
+
+    
+    <FlyoutItem  Title="Previous Order" Icon="list_vector.svg">
+        <ShellContent
+        ContentTemplate="{DataTemplate Orders:pgPreviousOrders}"
+        Route="PreviousOrder" />
+    </FlyoutItem>
+
+    <FlyoutItem  Title="Review" Icon="rate_review" >
+        <ShellContent
+    ContentTemplate="{DataTemplate Reviews:pgGetAllReviews}"
+    Route="Review" />
+    </FlyoutItem>
+
+    <FlyoutItem  Title="Profile" Icon="personn.svg">
+        <ShellContent
+    ContentTemplate="{DataTemplate FlyoutPages:pgProfile}"
+    Route="Profile" />
+    </FlyoutItem>
+
+    <FlyoutItem  Title="Settings" Icon="Settings.svg">
+        <ShellContent
+        ContentTemplate="{DataTemplate FlyoutPages:pgSetting}"
+        Route="Settings" />
+    </FlyoutItem>
+
+
+    <Shell.FlyoutFooter >
+        <VerticalStackLayout Padding="24" VerticalOptions="Center">
+            <Image Source="logo.svg"/>
+            <Label HorizontalTextAlignment="Center" Text="All rigth reseved 2024" MaxLines="1" />
+            <Label Text="Date here 25/8/2025" HorizontalTextAlignment="Center"/>
+        </VerticalStackLayout>
+    </Shell.FlyoutFooter>
+
+
+
+
+</Shell>

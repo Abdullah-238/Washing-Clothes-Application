@@ -1,0 +1,95 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SheenProviderApp
+build_property.ProjectDir = C:\Users\good1\source\repos\SheenProviderApp\SheenProviderApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/good1/source/repos/SheenProviderApp/SheenProviderApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SheenProviderApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/good1/source/repos/SheenProviderApp/SheenProviderApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SheenProviderApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/good1/source/repos/SheenProviderApp/SheenProviderApp/FlyoutPages/pgProfile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SheenProviderApp.FlyoutPages.pgProfile.xaml
+build_metadata.AdditionalFiles.TargetPath = FlyoutPages\pgProfile.xaml
+build_metadata.AdditionalFiles.RelativePath = FlyoutPages\pgProfile.xaml
+
+[C:/Users/good1/source/repos/SheenProviderApp/SheenProviderApp/FlyoutPages/pgSetting.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SheenProviderApp.FlyoutPages.pgSetting.xaml
+build_metadata.AdditionalFiles.TargetPath = FlyoutPages\pgSetting.xaml
+build_metadata.AdditionalFiles.RelativePath = FlyoutPages\pgSetting.xaml
+
+[C:/Users/good1/source/repos/SheenProviderApp/SheenProviderApp/LogInPages/pgIntro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SheenProviderApp.LogInPages.pgIntro.xaml
+build_metadata.AdditionalFiles.TargetPath = LogInPages\pgIntro.xaml
+build_metadata.AdditionalFiles.RelativePath = LogInPages\pgIntro.xaml
+
+[C:/Users/good1/source/repos/SheenProviderApp/SheenProviderApp/LogInPages/pgSignIn.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SheenProviderApp.LogInPages.pgSignIn.xaml
+build_metadata.AdditionalFiles.TargetPath = LogInPages\pgSignIn.xaml
+build_metadata.AdditionalFiles.RelativePath = LogInPages\pgSignIn.xaml
+
+[C:/Users/good1/source/repos/SheenProviderApp/SheenProviderApp/LogInPages/pgSigningUp.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SheenProviderApp.LogInPages.pgSigningUp.xaml
+build_metadata.AdditionalFiles.TargetPath = LogInPages\pgSigningUp.xaml
+build_metadata.AdditionalFiles.RelativePath = LogInPages\pgSigningUp.xaml
+
+[C:/Users/good1/source/repos/SheenProviderApp/SheenProviderApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SheenProviderApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/good1/source/repos/SheenProviderApp/SheenProviderApp/Orders/pgOrder.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SheenProviderApp.Orders.pgOrder.xaml
+build_metadata.AdditionalFiles.TargetPath = Orders\pgOrder.xaml
+build_metadata.AdditionalFiles.RelativePath = Orders\pgOrder.xaml
+
+[C:/Users/good1/source/repos/SheenProviderApp/SheenProviderApp/Orders/pgPreviousOrders.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SheenProviderApp.Orders.pgPreviousOrders.xaml
+build_metadata.AdditionalFiles.TargetPath = Orders\pgPreviousOrders.xaml
+build_metadata.AdditionalFiles.RelativePath = Orders\pgPreviousOrders.xaml
+
+[C:/Users/good1/source/repos/SheenProviderApp/SheenProviderApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SheenProviderApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/good1/source/repos/SheenProviderApp/SheenProviderApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SheenProviderApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/good1/source/repos/SheenProviderApp/SheenProviderApp/Review/pgGetAllReviews.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SheenProviderApp.Review.pgGetAllReviews.xaml
+build_metadata.AdditionalFiles.TargetPath = Review\pgGetAllReviews.xaml
+build_metadata.AdditionalFiles.RelativePath = Review\pgGetAllReviews.xaml

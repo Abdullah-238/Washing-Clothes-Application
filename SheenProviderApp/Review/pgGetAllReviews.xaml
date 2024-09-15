@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sheen.Reviews.pgGetAllReviews"
+             Title="Review">
+
+    <ScrollView>
+
+        <VerticalStackLayout Padding="24" Spacing="24">
+            <CollectionView  x:Name="clvComplain">
+
+                <CollectionView.ItemsLayout >
+                    <LinearItemsLayout ItemSpacing="8" Orientation="Vertical" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate >
+                    <DataTemplate>
+                        <Border StrokeShape="RoundRectangle 8" Stroke="Transparent">
+                            <Grid RowDefinitions="*,*"  ColumnDefinitions="*,*"  RowSpacing="12"  ColumnSpacing="12" BackgroundColor="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray600}}" Padding="12">
+
+
+                                <HorizontalStackLayout Spacing="4"  Grid.Row="0"  Grid.Column="1"  HorizontalOptions="End" VerticalOptions="Center">
+                                    <Image Source="star.svg"/>
+                                    <Label Text="{Binding OrderRate}" MaxLines="1" VerticalOptions="Center"/>
+                                </HorizontalStackLayout>
+
+                                <Label TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" Text="{Binding CustomerName}"  VerticalOptions="Center" />
+
+
+                                <Label Text="{Binding ReviewText}" LineBreakMode="TailTruncation" MaxLines="2" Grid.Row="1" Grid.Column="0"/>
+
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
